@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Stack Hub에서 SQL Server 리소스 공급자 구현'
     module: '모듈 2: 서비스 제공'
