@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: PowerShell을 통해 Azure Stack Hub에 연결'
     module: '모듈 5: 인프라 관리'
