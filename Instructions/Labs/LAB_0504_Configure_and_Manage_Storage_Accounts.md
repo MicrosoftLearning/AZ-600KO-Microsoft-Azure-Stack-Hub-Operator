@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Stack Hub 스토리지 계정 구성 및 관리'
     module: '모듈 5: 인프라 관리'
