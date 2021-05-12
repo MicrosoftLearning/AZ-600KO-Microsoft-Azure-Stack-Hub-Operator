@@ -1,4 +1,4 @@
-﻿---
+---
 제목: 온라인 호스팅 지침
 permalink: index.html
 layout: home
