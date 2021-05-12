@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Stack Hub에서 공용 IP 주소 관리'
     module: '모듈 5: 인프라 관리'
