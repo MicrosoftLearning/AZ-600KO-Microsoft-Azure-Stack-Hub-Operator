@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Gallery Packager를 사용하여 사용자 지정 Marketplace 항목 추가'
     module: '모듈 2: 서비스 제공'
