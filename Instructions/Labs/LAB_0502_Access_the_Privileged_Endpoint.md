@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Stack Hub에서 권한 있는 엔드포인트 액세스'
     module: '모듈 5: 인프라 관리'
