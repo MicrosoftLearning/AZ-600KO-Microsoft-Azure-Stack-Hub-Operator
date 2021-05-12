@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Stack Hub에서 서비스 주체 관리'
     module: '모듈 4: ID 및 액세스 관리'
