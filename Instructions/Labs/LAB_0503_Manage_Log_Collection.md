@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Stack Hub에서 로그 수집 관리'
     module: '모듈 5: 인프라 관리'
