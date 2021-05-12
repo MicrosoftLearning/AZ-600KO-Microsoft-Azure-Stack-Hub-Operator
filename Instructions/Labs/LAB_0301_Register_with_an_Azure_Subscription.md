@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure 구독에 Azure Stack Hub 등록'
     module: '모듈 3: 데이터 센터 통합 구현'
