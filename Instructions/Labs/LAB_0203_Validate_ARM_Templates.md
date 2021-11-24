@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Stack Hub를 사용하여 ARM(Azure Resource Manager) 템플릿 유효성 검사'
     module: '모듈 2: 서비스 제공'
