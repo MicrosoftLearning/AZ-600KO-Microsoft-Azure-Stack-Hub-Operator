@@ -101,6 +101,7 @@ lab:
     Add-AzEnvironment -Name 'AzureStackAdmin' -ArmEndpoint 'https://adminmanagement.local.azurestack.external' `
        -AzureKeyVaultDnsSuffix adminvault.local.azurestack.external `
        -AzureKeyVaultServiceEndpointResourceId https://adminvault.local.azurestack.external
+    ```   
 
 1. **관리자: C:\Program Files\PowerShell\7\pwsh.exe** 창에서 다음 명령을 실행하여 새로 등록한 **AzureStackAdmin** 환경에 로그인합니다.
 
@@ -193,13 +194,13 @@ lab:
 
 - Azure 빠른 시작 템플릿을 대상으로 템플릿 유효성 검사기 실행
 
-1. **AzS-HOST1**에 연결된 원격 데스크톱 세션 내의 Azure Stack 빠른 시작 템플릿 리포지토리가 표시된 웹 브라우저에서 Azure 빠른 시작 템플릿 리포지토리 [**MySQL Server 5.6 on Ubuntu VM** 페이지](https://github.com/Azure/azure-quickstart-templates/tree/master/mysql-standalone-server-ubuntu)로 이동합니다.
+1. **AzS-HOST1**에 연결된 원격 데스크톱 세션 내의 Azure Stack 빠른 시작 템플릿 리포지토리가 표시된 웹 브라우저에서 Azure 빠른 시작 템플릿 리포지토리 [**MySQL Server 5.6 on Ubuntu VM** 페이지](https://github.com/Azure/azure-quickstart-templates/tree/master/application-workloads/mysql/mysql-standalone-server-ubuntu)로 이동합니다.
 1. **MySQL Server 5.6 on Ubuntu VM** 페이지에서 **azuredeploy.json**을 클릭합니다.
-1. [azure-quickstart-templates/mysql-standalone-server-ubuntu/azuredeploy.json](https://github.com/Azure/azure-quickstart-templates/blob/master/mysql-standalone-server-ubuntu/azuredeploy.json) 페이지에서 템플릿의 내용을 검토합니다.
+1. [azure-quickstart-templates/mysql-standalone-server-ubuntu/azuredeploy.json](https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/mysql/mysql-standalone-server-ubuntu/azuredeploy.json) 페이지에서 템플릿의 내용을 검토합니다.
 1. **관리자: C:\Program Files\PowerShell\7\pwsh.exe** 창으로 전환한 후 다음 명령을 실행하여 azuredeploy.json 파일을 다운로드한 다음 **C:\\Templates** 폴더에 **sampletemplate2.json** 파일로 저장합니다.
 
     ```powershell
-    Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mysql-standalone-server-ubuntu/azuredeploy.json' -UseBasicParsing -OutFile $path\sampletemplate2.json
+    Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/application-workloads/mysql/mysql-standalone-server-ubuntu/azuredeploy.json' -UseBasicParsing -OutFile $path\sampletemplate2.json
     ```
 
 1. **AzS-HOST1**에 연결된 원격 데스크톱 세션 내의 웹 브라우저에서 [Virtual Machines](https://docs.microsoft.com/ko-kr/rest/api/compute/virtualmachines)의 REST API 참조로 이동하여 최신 Azure API 버전(이 콘텐츠 작성 시점에서는 **2020-12-01**)을 확인합니다. 
@@ -213,7 +214,7 @@ lab:
 
     ```json
     {
-      "apiVersion": "2017-06-01",
+      "apiVersion": "2017-03-30",
       "type": "Microsoft.Compute/virtualMachines",
       "name": "[variables('vmName')]",
       "location": "[parameters('location')]",
@@ -301,7 +302,7 @@ lab:
         "2018-06-01",
         "2018-04-01",
         "2017-12-01",
-        "2017-06-01",
+        "2017-03-30",
         "2016-08-30",
         "2016-03-30",
         "2015-11-01",
