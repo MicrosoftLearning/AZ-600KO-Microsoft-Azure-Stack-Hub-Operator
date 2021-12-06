@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Stack Hub에서 제안 및 요금제 관리'
     module: '모듈 2: 서비스 제공'
