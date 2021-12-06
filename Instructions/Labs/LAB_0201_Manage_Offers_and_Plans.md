@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '랩: Azure Stack Hub에서 제안 및 요금제 관리'
     module: '모듈 2: 서비스 제공'
@@ -350,7 +350,7 @@ lab:
 - 추가 요금제 사용 가능 여부 확인(두 번째 사용자 역할)
 
 1. **AzS-HOST1**에 연결된 원격 데스크톱 세션 내에서 웹 브라우저의 InPrivate 세션을 시작합니다.
-1. 웹 브라우저 창에서 [Azure Stack Hub 사용자 포털](https://portal.local.azurestack.external)로 이동하여 **Pa55w.rd** 암호를 사용해 **t1u1@azurestack.local**로 로그인합니다.
+1. 웹 브라우저 창에서 [Azure Stack Hub 사용자 포털](https://portal.local.azurestack.external)로 이동하여 **Pa55w.rd** 암호를 사용해 **t1u2@azurestack.local**로 로그인합니다.
 1. Azure Stack Hub 사용자 포털의 허브 메뉴에서 **모든 서비스**를 클릭합니다.
 1. 서비스 목록에서 **구독**을 클릭합니다.
 1. **구독** 블레이드에서 **t1u2-base-subscription1**을 클릭합니다.
